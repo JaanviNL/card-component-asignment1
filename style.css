@@ -1,0 +1,138 @@
+.grid-container
+{
+    display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 15px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.main-container
+{
+    width:350px;
+    height:425px;
+    margin: auto;
+    border: outset;
+    background-color: lightgrey;
+    
+
+}
+.container-new
+{
+    width:350px;
+    height: 350px;
+    margin: auto;
+    border: outset;
+    background-color: lightgrey;
+}
+.img-container
+{
+    position: relative;
+    
+}
+.textoverimage
+{
+    position: absolute;
+  bottom: 5px;
+  left: 16px;
+  font-weight: bolder;
+
+}
+
+img
+{
+width:94%;
+height:200px;
+margin: 10px 10px 0px 10px;
+border-radius: 10px;
+}
+
+.card-details
+{
+    margin-left: 10px;;
+}
+.small
+{
+    margin-top: -15px;
+}
+.card-actions
+{
+display:flex;
+background-color: #e2e8f0;
+flex-direction: row;
+border-radius: 5px;
+
+}
+.card-action-4
+{
+    margin-top: 10px;
+}
+.text-button
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: .5rem;
+}
+
+.btn
+{
+    border: none;
+    background-color: #e2e8f0;
+    color: blueviolet;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10%;
+    padding: 5px;
+}
+.btn:hover
+{
+    background-color: #cbd5e1;
+}
+.icon-button
+{
+    display: flex;
+    margin-left: 50px;
+    
+    
+}
+.icon-button-3
+{
+    display: flex;
+
+ margin-left: 200px;
+    
+}
+
+.icon-button-4
+{
+    display: flex;
+ margin-left: 200px;
+    
+}
+.menu-icon
+{
+    padding:0.5rem;
+    margin-right: 15px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.menu-icon:hover
+{
+    background-color: #cbd5e1;
+}
+
+.container-with-txt-img
+{
+    width:350px;
+    height:250px;
+    margin: auto;
+    border: outset;
+    background-color: lightgrey;
+}
+.img-text
+{
+    display: flex;
+    flex-direction: row;
+margin-bottom: 20px;
+}
